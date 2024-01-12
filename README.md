@@ -1,4 +1,4 @@
-# NextJS Template
+# Zustand Test
 
 Template using Zustand with Next.js, React, Tailwind CSS, ESLint, Prettier, and VSCode
 
