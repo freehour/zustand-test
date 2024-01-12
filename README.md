@@ -1,6 +1,6 @@
 # NextJS Template
 
-Template using Next.js, React, Tailwind CSS, ESLint, Prettier, and VSCode
+Template using Zustand with Next.js, React, Tailwind CSS, ESLint, Prettier, and VSCode
 
 ## Installation
 
