@@ -1,0 +1,35 @@
+{
+	"root": true,
+	"env": {
+		"browser": true,
+		"node": false
+	},
+	"parser": "@typescript-eslint/parser",
+	"parserOptions": {
+		"project": "tsconfig.json"
+	},
+	"plugins": ["@typescript-eslint", "eslint-plugin-jsdoc"],
+	"extends": [
+		"./eslintrc/.eslintrc.json",
+		"next",
+		"plugin:prettier/recommended"
+	],
+	"rules": {
+		"@typescript-eslint/explicit-function-return-type": [
+			"warn",
+			{ "allowExpressions": true }
+		],
+
+		"react/react-in-jsx-scope": "off",
+		"react/jsx-uses-react": "off",
+		"prettier/prettier": "warn"
+	},
+	"ignorePatterns": [
+		"node_modules",
+		".next",
+		"out",
+		"public",
+		"postcss.config.js",
+		"next.config.js"
+	]
+}
